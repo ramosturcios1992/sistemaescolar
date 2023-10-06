@@ -1,0 +1,85 @@
+button,
+a {
+    outline: none !important;
+    border: none !important;
+}
+
+/* contenido */
+
+#contenido::-webkit-scrollbar {
+    width: 12px;
+}
+#contenido::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: rgb(0, 103, 151);
+}
+#contenido::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 62, 90);
+}
+/* modal edit */
+#modal-edit input,
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 18px;
+    border-bottom: solid rgba(0, 91, 134, 0.692) 1.5px;
+    margin-bottom: 18px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 700 !important;
+    background: transparent;
+}
+#modal-edit input::placeholder {
+    font-size: 15px;
+    font-weight: normal;
+}
+#example tbody td {
+    border-bottom: solid rgb(156, 156, 156) 1.3px;
+}
+#example tbody tr:hover {
+    background: rgb(255, 255, 255);
+    font-weight: 300;
+    color: black;
+}
+#modal-edit small {
+    position: absolute;
+    color: red;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+/* modal create */
+#modal-create input,
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 18px;
+    border-bottom: solid rgba(0, 91, 134, 0.692) 1.5px;
+    border-right: solid rgb(0, 92, 134) 1.5px;
+    margin-bottom: 18px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 555 !important;
+    background: transparent;
+}
+#modal-create input::placeholder {
+    font-size: 15px;
+    font-weight: normal;
+}
+#modal-create small {
+    position: absolute;
+    text-align: left;
+    color: red;
+    margin-bottom: 15px;
+}
+
+body input:focus {
+    border-bottom: solid 1.5px rgb(0, 38, 255)!important;
+    box-shadow: 0px 0.4px rgb(0, 38, 255);
+}
+body select:focus {
+    border-bottom: solid 1.5px rgb(0, 38, 255)!important;
+    box-shadow: 0px 0.4px rgb(0, 38, 255);
+}
